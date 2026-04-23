@@ -1,0 +1,92 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.15.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\ADMIN\Desktop\yakusWallet\frontend\.npmrc
+5 silly config load:file:C:\Users\ADMIN\.npmrc
+6 silly config load:file:C:\Users\ADMIN\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:C:\Users\ADMIN\Desktop\yakusWallet\frontend\.npm-cache\_logs\2026-04-23T19_51_05_067Z-
+10 verbose logfile C:\Users\ADMIN\Desktop\yakusWallet\frontend\.npm-cache\_logs\2026-04-23T19_51_05_067Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with EACCES
+14 silly idealTree buildDeps
+15 silly fetch manifest react@^18.2.0
+16 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+17 http fetch GET https://registry.npmjs.org/react attempt 1 failed with EACCES
+18 http fetch GET https://registry.npmjs.org/npm attempt 2 failed with EACCES
+19 http fetch GET https://registry.npmjs.org/react attempt 2 failed with EACCES
+20 http fetch GET https://registry.npmjs.org/npm attempt 3 failed with EACCES
+21 http fetch GET https://registry.npmjs.org/react attempt 3 failed with EACCES
+22 silly fetch manifest react-dom@^18.2.0
+23 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+24 http fetch GET https://registry.npmjs.org/react-dom attempt 1 failed with EACCES
+25 http fetch GET https://registry.npmjs.org/react-dom attempt 2 failed with EACCES
+26 http fetch GET https://registry.npmjs.org/react-dom attempt 3 failed with EACCES
+27 silly fetch manifest lucide-react@latest
+28 silly packumentCache full:https://registry.npmjs.org/lucide-react cache-miss
+29 http fetch GET https://registry.npmjs.org/lucide-react attempt 1 failed with EACCES
+30 http fetch GET https://registry.npmjs.org/lucide-react attempt 2 failed with EACCES
+31 http fetch GET https://registry.npmjs.org/lucide-react attempt 3 failed with EACCES
+32 silly fetch manifest axios@latest
+33 silly packumentCache full:https://registry.npmjs.org/axios cache-miss
+34 http fetch GET https://registry.npmjs.org/axios attempt 1 failed with EACCES
+35 http fetch GET https://registry.npmjs.org/axios attempt 2 failed with EACCES
+36 http fetch GET https://registry.npmjs.org/axios attempt 3 failed with EACCES
+37 silly fetch manifest tailwindcss@latest
+38 silly packumentCache full:https://registry.npmjs.org/tailwindcss cache-miss
+39 http fetch GET https://registry.npmjs.org/tailwindcss attempt 1 failed with EACCES
+40 http fetch GET https://registry.npmjs.org/tailwindcss attempt 2 failed with EACCES
+41 http fetch GET https://registry.npmjs.org/tailwindcss attempt 3 failed with EACCES
+42 silly fetch manifest @headlessui/react@latest
+43 silly packumentCache full:https://registry.npmjs.org/@headlessui%2freact cache-miss
+44 http fetch GET https://registry.npmjs.org/@headlessui%2freact attempt 1 failed with EACCES
+45 http fetch GET https://registry.npmjs.org/@headlessui%2freact attempt 2 failed with EACCES
+46 http fetch GET https://registry.npmjs.org/@headlessui%2freact attempt 3 failed with EACCES
+47 silly placeDep ROOT @headlessui/react@ OK for: yakuswallet-frontend@1.0.0 want: latest
+48 silly placeDep ROOT axios@ OK for: yakuswallet-frontend@1.0.0 want: latest
+49 silly placeDep ROOT lucide-react@ OK for: yakuswallet-frontend@1.0.0 want: latest
+50 silly placeDep ROOT react@ OK for: yakuswallet-frontend@1.0.0 want: ^18.2.0
+51 silly placeDep ROOT react-dom@ OK for: yakuswallet-frontend@1.0.0 want: ^18.2.0
+52 silly placeDep ROOT tailwindcss@ OK for: yakuswallet-frontend@1.0.0 want: latest
+53 verbose type system
+54 verbose stack FetchError: request to https://registry.npmjs.org/@headlessui%2freact failed, reason: 
+54 verbose stack     at ClientRequest.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+54 verbose stack     at ClientRequest.emit (node:events:518:28)
+54 verbose stack     at emitErrorEvent (node:_http_client:104:11)
+54 verbose stack     at _destroy (node:_http_client:898:9)
+54 verbose stack     at onSocketNT (node:_http_client:918:5)
+54 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+55 error code EACCES
+56 error errno EACCES
+57 error FetchError: request to https://registry.npmjs.org/@headlessui%2freact failed, reason: 
+57 error     at ClientRequest.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+57 error     at ClientRequest.emit (node:events:518:28)
+57 error     at emitErrorEvent (node:_http_client:104:11)
+57 error     at _destroy (node:_http_client:898:9)
+57 error     at onSocketNT (node:_http_client:918:5)
+57 error     at process.processTicksAndRejections (node:internal/process/task_queues:91:21) {
+57 error   code: 'EACCES',
+57 error   errno: 'EACCES',
+57 error   type: 'system',
+57 error   requiredBy: '.'
+57 error }
+58 error
+58 error The operation was rejected by your operating system.
+58 error It's possible that the file was already in use (by a text editor or antivirus),
+58 error or that you lack permissions to access it.
+58 error
+58 error If you believe this might be a permissions issue, please double-check the
+58 error permissions of the file and its containing directories, or try running
+58 error the command again as root/Administrator.
+59 silly unfinished npm timer reify 1776973867267
+60 silly unfinished npm timer reify:loadTrees 1776973867279
+61 verbose cwd C:\Users\ADMIN\Desktop\yakusWallet\frontend
+62 verbose os Windows_NT 10.0.26200
+63 verbose node v22.15.0
+64 verbose npm  v10.9.2
+65 verbose exit 1
+66 verbose code 1
+67 error A complete log of this run can be found in: C:\Users\ADMIN\Desktop\yakusWallet\frontend\.npm-cache\_logs\2026-04-23T19_51_05_067Z-debug-0.log

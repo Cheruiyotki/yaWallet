@@ -6,11 +6,15 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "lucide-react": "latest",
-    "axios": "latest"
+    "axios": "latest",
+    "@headlessui/react": "latest"
   },
   "devDependencies": {
     "tailwindcss": "latest",
-    "@headlessui/react": "latest"
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "vite": "latest",
+    "@vitejs/plugin-react": "latest"
   },
   "scripts": {
     "start": "vite",
