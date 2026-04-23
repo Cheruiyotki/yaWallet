@@ -17,3 +17,6 @@ router.get('/:userId', async (req, res) => {
   });
 
   res.json(wallets);
+});
+
+export default router;

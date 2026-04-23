@@ -1,6 +1,7 @@
 import express from 'express';
-import { PrismaClient } from '@prisma/client';
+import prismaPkg from '@prisma/client';
 const router = express.Router();
+const { PrismaClient } = prismaPkg;
 const prisma = new PrismaClient();
 
 // GET /api/wallet/:id
