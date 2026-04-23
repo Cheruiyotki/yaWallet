@@ -1,0 +1,20 @@
+{
+  "name": "yakuswallet-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "latest",
+    "axios": "latest"
+  },
+  "devDependencies": {
+    "tailwindcss": "latest",
+    "@headlessui/react": "latest"
+  },
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build"
+  }
+}

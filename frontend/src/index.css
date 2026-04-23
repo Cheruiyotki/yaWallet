@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-gradient-radial {
+  background: radial-gradient(circle at 50% 0%, #2d1a4a 0%, #18181b 60%, #000 100%);
+}
+.bg-glass {
+  background: rgba(36, 39, 54, 0.7);
+  backdrop-filter: blur(12px);
+}
